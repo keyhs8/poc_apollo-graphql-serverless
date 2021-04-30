@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "docker-compose -f compose.yml up"
+    "start": "docker-compose up"
   },
   "repository": {
     "type": "git",
@@ -16,6 +16,5 @@
   "bugs": {
     "url": "https://github.com/awesome1888/poc_apollo-graphql-serverless/issues"
   },
-  "homepage": "https://github.com/awesome1888/poc_apollo-graphql-serverless#readme",
-  "devDependencies": {}
+  "homepage": "https://github.com/awesome1888/poc_apollo-graphql-serverless#readme"
 }

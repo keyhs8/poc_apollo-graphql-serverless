@@ -1,9 +1,9 @@
-import { mergeTypes } from 'merge-graphql-schemas';
+import { mergeTypeDefs } from '@graphql-tools/merge';
 
 import movie from './movie.graphql';
 import character from './character.graphql';
 
-export default mergeTypes(
+export default mergeTypeDefs(
     [movie, character],
     { all: true },
 );
